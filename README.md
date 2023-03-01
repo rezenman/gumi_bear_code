@@ -3,7 +3,7 @@ This repo contatins all scripts and files required to perform analysis for the g
 "gUMI-BEAR, a modular, unsupervised population barcoding method to track variants and evolution at high resolution"
 
 ## First script to run 
-Following demultiplexing and getting each sample to a seperate folder contatining read1 and read2 files use the following script to for preperation of samples
+Following demultiplexing, for each folder contatining read1 and read2 files use the following script:
 ```
 ./01_Prepare_samples_from_fastq.sh "path_to_folder_where_R1_and_R2" "path_to_internal_index_file"
 ```

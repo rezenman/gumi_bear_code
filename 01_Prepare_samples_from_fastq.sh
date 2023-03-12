@@ -15,7 +15,7 @@ source activate analysis
 
 folder=$1
 path_to_int_index=$2
-
+cd $1
 echo -e "\n-----FASTQC-----\n" >> log.txt
 
 ##1 - fastqc
